@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grwz</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+      }
+      .flex {
+        display: flex;
+      }
+      .color {
+        background-color: rgb(244, 249, 248);
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      /* {
+        border: 1px solid black;
+      }*/
+      .color1 {
+        background-color: rgba(230, 228, 226, 0.3);
+      }
+      .border {
+        border: 1px solid rgb(255, 255, 255);
+      }
+      .margin {
+        margin: 8px;
+      }
+      .magt {
+        margin-top: 8px;
+      }
+      .text {
+        justify-content:center;
+        margin: auto;
+      }
+      .text1{
+        text-align:center;
+      }
+      .size{
+        font-size: smaller;
+      }
+    </style>
+  </head>
+  <body
+    background="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.616pic.com%2Fbg_w1180%2F00%2F00%2F08%2Fvu8gNyD9YZ.jpg&refer=http%3A%2F%2Fpic.616pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1658743188&t=3756527ebd96bfa94d97be536ea81dab"
+    ;
+    class="flex"
+  >
+    <!--空区-->
+    <div style="width: 250px"></div>
+    <!--主区-->
+    <div class="flex1 flex column">
+      <!--标题区-->
+      <div style="height: 130px; width: 750px" class=" flex">
+        <!--我的驿站...-->
+        <div class="flex1 flex column text1">
+          <!--我的驿站-->
+          <div flex:2>
+            <p>我的驿站</p>
+          </div>
+          <!--MY HOME-->
+          <div flex:1>
+            <p>——MY HOME</p>
+          </div>
+        </div>
+        <!--主页-->
+        <div class="flex1 text size">
+          <p>主页</p>
+        </div>
+        <!--我的偶像-->
+        <div class="flex1 text size">
+          <p>我的偶像</p>
+        </div>
+        <!--我的相册-->
+        <div class="flex1 text size">
+          <p>我的相册</p>
+        </div>
+        <!--我的日志-->
+        <div class="flex1 text size">
+          <p>我的日志</p>
+        </div>
+        <!--我的音乐-->
+        <div class="flex1 text size">
+          <p>我的音乐</p>
+        </div>
+      </div>
+      <!--大内容区-->
+      <div style="width: 750px" class="flex1 color1 border">
+        <!--大区1-->
+        <div class="flex color magt">
+          <!--内容区1-->
+          <div style="height: 250px" class="color flex1 column text1">
+            <!--我的个人简介-->
+            <div calss="flex1">
+              <p>我的个人简介</p>
+            </div>
+            <!--姓名-->
+            <div calss="flex1">
+              <p>姓名</p>
+            </div>
+            <!--性别-->
+            <div calss="flex1">
+              <p>性别</p>
+            </div>
+            <!--生日-->
+            <div calss="flex1">
+              <p>生日</p>
+            </div>
+            <!--学校-->
+            <div calss="flex1">
+              <p>学校</p>
+            </div>
+            <!--爱好-->
+            <div calss="flex1">
+              <p>爱好</p>
+            </div>
+            <!--你看-->
+            <div calss="flex1">
+              <!-- <p>你看</p> -->
+            </div>
+          </div>
+          <!--图片区1-->
+          <div style="height: 250px" class="color flex1 border">
+            <img
+            src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201712%2F09%2F20171209092045_jhUkE.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1658748988&t=de348afa33af84dd057cbc73edeb6a47" height="250px" width="350px">
+          </div>
+        </div>
+        <!--大区2-->
+        <div class="flex color magt">
+          <!--图片区2-->
+          <div style="height: 180px" class="color flex1 border">
+            <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.gufengjia.com%2Fd%2Ffile%2Fimages%2F201907011153%2F13-1PPG50526-51.jpg&refer=http%3A%2F%2Fwww.gufengjia.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1658749454&t=e47aa550823da1c84d119ec577846a6c" height="150px" width="300px">
+          </div>
+          <!--内容区2-->
+          <div style="height: 180px" class="color flex1 text">
+            <p>好啦，基本介绍就到这里了</p>
+            <a href="https://www.runoob.com/">后面的还没做，先跳转到菜鸟教程吧</a>
+        </div>
+        </div>
+        <!--大区3-->
+        <!-- <div class="flex color magt"> -->
+          <!--内容区3-->
+          <!-- <div style="height: 150px" class="color flex1"></div> -->
+          <!--图片3-->
+          <!-- <div style="height: 150px" class="color flex1 border"></div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
